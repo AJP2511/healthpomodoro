@@ -14,3 +14,18 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+@media (max-width: 1080px) {
+  .mainContainer section {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 720px) {
+    .mainContainer section {
+      grid-template-columns: none;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1rem;
+    }
+}
